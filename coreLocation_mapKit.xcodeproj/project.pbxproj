@@ -12,6 +12,8 @@
 		A14D6E5D21750236007EEE1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D6E5B21750236007EEE1F /* Main.storyboard */; };
 		A14D6E5F21750238007EEE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14D6E5E21750238007EEE1F /* Assets.xcassets */; };
 		A14D6E6221750238007EEE1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14D6E6021750238007EEE1F /* LaunchScreen.storyboard */; };
+		A14D6E6A217502AB007EEE1F /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D6E69217502AB007EEE1F /* MapKitViewController.swift */; };
+		A14D6E6C217502D3007EEE1F /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14D6E6B217502D3007EEE1F /* PointOfInterest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A14D6E5E21750238007EEE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A14D6E6121750238007EEE1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A14D6E6321750238007EEE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14D6E69217502AB007EEE1F /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		A14D6E6B217502D3007EEE1F /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A14D6E5E21750238007EEE1F /* Assets.xcassets */,
 				A14D6E6021750238007EEE1F /* LaunchScreen.storyboard */,
 				A14D6E6321750238007EEE1F /* Info.plist */,
+				A14D6E69217502AB007EEE1F /* MapKitViewController.swift */,
+				A14D6E6B217502D3007EEE1F /* PointOfInterest.swift */,
 			);
 			path = coreLocation_mapKit;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14D6E6A217502AB007EEE1F /* MapKitViewController.swift in Sources */,
+				A14D6E6C217502D3007EEE1F /* PointOfInterest.swift in Sources */,
 				A14D6E5A21750236007EEE1F /* ViewController.swift in Sources */,
 				A14D6E5821750236007EEE1F /* AppDelegate.swift in Sources */,
 			);

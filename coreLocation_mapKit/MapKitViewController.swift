@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapKitViewController.swift
 //  coreLocation_mapKit
 //
 //  Created by Charles Moncada on 15/10/18.
@@ -7,19 +7,19 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class MapKitViewController: UIViewController {
 
-	@IBOutlet weak var latitudeLabel: UILabel!
-	@IBOutlet weak var longitudeLabel: UILabel!
+	var pointsOfInterest: [PointOfInterest] = []
+
+	@IBOutlet weak var mapView: MKMapView!
+
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
 	}
 
-	@IBAction func updateLocation(_ sender: Any) {
-
-	}
 }
 
